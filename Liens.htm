@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>Liens</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+<body bgcolor="#333366" onLoad="MM_preloadImages('Images/Menu/Index%203.jpg','Images/Menu/Index%202.jpg','Images/Menu/Index%204.jpg','Images/Menu/Hip-Hop%20Namurois%203.jpg','Images/Menu/Hip-Hop%20Namurois%202.jpg','Images/Menu/Hip-Hop%20Namurois%204.jpg','Images/Menu/CV%20&amp;%20Cr%E9ations%20personnel%203.jpg','Images/Menu/CV%20&amp;%20Cr%E9ations%20personnel%202.jpg','Images/Menu/CV%20&amp;%20Cr%E9ations%20personnel%204.jpg','Images/Menu/HEAJ%203.jpg','Images/Menu/HEAJ%202.jpg','Images/Menu/HEAJ%204.jpg','Images/Menu/Liens%203.jpg','Images/Menu/Liens%204.jpg','Images/Menu/Liens%202.jpg','Images/Menu/Religion%203.jpg','Images/Menu/Religion%202.jpg','Images/Menu/Religion%204.jpg')" link="#006699" vlink="#CCCCCC" alink="#666666">
+<div align="center"> 
+  <p><font size="4" face="Westminster" color="#006666"><b><font color="#009999"><u><font color="#CCCCFF" size="3">Derni&egrave;re 
+    mise &agrave; jours :</font></u></font></b></font></p>
+  <p><font face="Westminster" size="3"><b><font size="2" color="#FFFFFF"> 
+    <!-- #BeginDate format:acSw1a -->Dim, 19 ao&ucirc;t, 2001 2:56 AM<!-- #EndDate -->
+    </font></b></font> </p>
+</div>
+<table cellpadding="0" width="86" border="2" align="center" height="97" cellspacing="1" bordercolor="#333366">
+  <tr> 
+    <td height="20"><a href="Menu.htm" target="mainFrame" onClick="MM_nbGroup('down','group1','Index','Images/Menu/Index%203.jpg',1)" onMouseOver="MM_nbGroup('over','Index','Images/Menu/Index%202.jpg','Images/Menu/Index%204.jpg',1)" onMouseOut="MM_nbGroup('out')"><img name="Index" src="Images/Menu/Index%201.jpg" border="0" onLoad="" width="160" height="16"></a></td>
+  </tr>
+  <tr> 
+    <td><a href="Menu/Menu Liens.htm" onClick="MM_nbGroup('down','group1','Liens','Images/Menu/Liens%203.jpg',1)" onMouseOver="MM_nbGroup('over','Liens','Images/Menu/Liens%202.jpg','Images/Menu/Liens%204.jpg',1)" onMouseOut="MM_nbGroup('out')" target="mainFrame"><img name="Liens" src="Images/Menu/Liens%201.jpg" border="0" onLoad="" width="160" height="16"></a></td>
+  </tr>
+  <tr> 
+    <td> <a href="Menu/Menu HEAJ.htm" onClick="MM_nbGroup('down','group1','HEAJ','Images/Menu/HEAJ%203.jpg',1)" onMouseOver="MM_nbGroup('over','HEAJ','Images/Menu/HEAJ%202.jpg','Images/Menu/HEAJ%204.jpg',1)" onMouseOut="MM_nbGroup('out')" target="mainFrame"><img name="HEAJ" src="Images/Menu/HEAJ%201.jpg" border="0" onLoad="" width="160" height="16"></a></td>
+  </tr>
+  <tr> 
+    <td><a href="Menu/Menu CV Creations personnel.htm" target="mainFrame" onClick="MM_nbGroup('down','group1','CV & Créations personnel','Images/Menu/CV%20&%20Cr%E9ations%20personnel%203.jpg',1)" onMouseOver="MM_nbGroup('over','CV & Créations personnel','Images/Menu/CV%20&%20Cr%E9ations%20personnel%202.jpg','Images/Menu/CV%20&%20Cr%E9ations%20personnel%204.jpg',1)" onMouseOut="MM_nbGroup('out')"><img name="CV & Créations personnel" src="Images/Menu/CV%20&%20Cr%E9ations%20personnel%201.jpg" border="0" onLoad="" width="160" height="16"></a></td>
+  </tr>
+  <tr> 
+    <td height="18"><a href="Menu/Menu Hip-Hop Namurois.htm" onClick="MM_nbGroup('down','group1','Hiphop','Images/Menu/Hip-Hop%20Namurois%203.jpg',1)" onMouseOver="MM_nbGroup('over','Hiphop','Images/Menu/Hip-Hop%20Namurois%202.jpg','Images/Menu/Hip-Hop%20Namurois%204.jpg',1)" onMouseOut="MM_nbGroup('out')" target="mainFrame"><img name="Hiphop" src="Images/Menu/Hip-Hop%20Namurois%201.jpg" border="0" onLoad="" width="160" height="16"></a></td>
+  </tr>
+  <tr> 
+    <td><a href="Menu/Menu Religion.htm" onClick="MM_nbGroup('down','group1','Religion','Images/Menu/Religion%203.jpg',1)" onMouseOver="MM_nbGroup('over','Religion','Images/Menu/Religion%202.jpg','Images/Menu/Religion%204.jpg',1)" onMouseOut="MM_nbGroup('out')" target="mainFrame"><img name="Religion" src="Images/Menu/Religion%201.jpg" border="0" onLoad=""></a><br>
+    </td>
+  </tr>
+  <tr> 
+    <td height="99"><img src="Images/Manga/Icone/conquest.jpg" width="80" height="255"><img src="Images/Manga/Icone/tvdevilman.jpg" width="80" height="255"></td>
+  </tr>
+</table>
+<p align="center"><font face="Westminster"><b><font face="Westminster"><b><font face="Westminster"><b><font face="Westminster"><b><font face="Westminster"><b><font face="Westminster"><b><font face="Westminster"><b><font face="Westminster"><b><font face="Westminster"><b><font face="Westminster"><b><font face="Westminster"><b><font face="Westminster"><b><font color="#FFFFFF" size="2"> 
+  <!-- Start of TheCounter.com Code -->
+  <script type="text/javascript" language="javascript">
+s="na";c="na";j="na";f=""+escape(document.referrer)
+</script>
+  <script type="text/javascript" language="javascript1.2">
+s=screen.width;v=navigator.appName
+if (v != "Netscape") {c=screen.colorDepth}
+else {c=screen.pixelDepth}
+j=navigator.javaEnabled()
+</script>
+  <script type="text/javascript" language="javascript">
+function pr(n) {document.write(n,"\n");}
+NS2Ch=0
+if (navigator.appName == "Netscape" &&
+navigator.appVersion.charAt(0) == "2") {NS2Ch=1}
+if (NS2Ch == 0) {
+r="&size="+s+"&colors="+c+"&referer="+f+"&java="+j+""
+pr("<A HREF=\"http://www.TheCounter.com\" TARGET=\"_top\"><IMG"+
+" BORDER=0 SRC=\"http://c1.thecounter.com/id=672043"+r+"\"><\/A>")}
+</script>
+  <!-- End of TheCounter.com Code -->
+  </font></b></font></b></font></b></font></b></font></b></font></b></font></b></font></b></font></b></font></b></font></b></font></b></font></p>
+<p>&nbsp;</p>
+</body>
+</html>

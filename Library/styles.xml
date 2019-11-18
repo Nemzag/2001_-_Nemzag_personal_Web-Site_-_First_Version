@@ -1,0 +1,18 @@
+<mm:style name="Bold" type="char" apply="add" bold />
+<mm:style name="Caption" format="p" align="center" apply="replace" font="Arial, Helvetica, sans-serif" size="2" color="#808080" bold italic />
+<mm:style name="Copyright" format="p" align="center" apply="replace" font="Georgia, Times New Roman, Times, serif" size="1" italic />
+<mm:style name="Emphasis, sans-serif" type="char" apply="replace" font="Verdana, Arial, Helvetica, sans-serif" bold />
+<mm:style name="Explication d'une image" format="p" align="left" apply="replace" font="Arial, Helvetica, sans-serif" size="3" color="#666666" bold italic />
+<mm:style name="Fixed-width" type="char" apply="replace" font="Courier New, Courier, mono" />
+<mm:style name="Headline" align="left" apply="replace" font="Verdana, Arial, Helvetica, sans-serif" size="+2" bold />
+<mm:style name="Information" align="center" apply="replace" font="Arial" size="1" color="#006666" />
+<mm:style name="Message" format="p" align="right" apply="replace" font="Westminster" size="3" color="#CC6666" bold />
+<mm:style name="Normal" format="p" align="left" apply="replace" font="Arial" size="-1" color="#000000" />
+<mm:style name="Normal petit" type="char" apply="replace" font="Arial" size="1" color="#FFFFFF" />
+<mm:style name="Numero de beat" type="char" apply="replace" font="Westminster" color="#FFFFFF" bold />
+<mm:style name="Page en cours de construction" format="p" align="right" apply="replace" font="Westminster" size="5" color="#FFFFFF" bold />
+<mm:style name="Red" type="char" apply="add" color="#FF0000" />
+<mm:style name="Titre 1" format="h1" align="center" apply="replace" font="Westminster" size="+7" color="#333366" bold underline />
+<mm:style name="Titre 2" format="h2" align="left" apply="replace" font="Westminster" size="+2" color="#666699" bold underline />
+<mm:style name="Titre 3" format="h3" align="center" apply="replace" font="Arial" size="3" color="#666666" bold italic />
+<mm:style name="Westminster" type="char" apply="replace" font="Westminster" size="4" color="#666666" bold />

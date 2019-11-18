@@ -1,0 +1,29 @@
+ <!-- #BeginEditable "doctitle" -->
+<title>Menu Biblioth&eacute;ques</title>
+<!-- #EndEditable --> 
+<style type="text/css">
+<!--
+.Gaz {  font-family: Georgia, "Times New Roman", Times, serif; font-size: 18pt; font-style: normal; font-weight: bold; color: #0000CC; text-decoration: blink; border-color: #CCCCCC #999999 #000000 #666666; border-style: groove; border-top-width: thin; border-right-width: thin; border-bottom-width: thick; border-left-width: medium}
+.titres2 {  font-family: Westminster; font-size: 18pt; font-style: normal; font-weight: normal; background-position: center center; color: #999999; border: 10px #3399CC dashed; cursor: crosshair; background-color: #666666}
+-->
+</style>
+
+<body bgcolor="#FFFFFF" link="#006699" leftmargin="15" topmargin="20" vlink="#666666" alink="#CCCCCC" text="#000000">
+<h1 align="center"><font face="Westminster" size="+7" color="#006699"><b><u>Menu 
+  Hip-hop Namurois :</u></b></font></h1>
+<p align="right"><font face="Westminster" size="5" color="#666666"><b>page en 
+  cours de CONSTRUCTION !!!</b></font></p>
+<h2 align="center" class="titres2"><font face="Westminster" size="+4" color="#33FFCC"><u><b>Bienvenue 
+  dans cet section :</b></u></font></h2>
+<ul>
+  <li> Le groupe &quot;<a href="../Menu/Sous%20menu%20Hip-Hop/Essentiel.htm">Essentiel</a>&quot; 
+    : </li>
+  <li>Le groupe &quot;<a href="../Menu/Sous%20menu%20Hip-Hop/NBS.htm">NBS</a>&quot; :</li>
+  <li>Quelques graphiste : 
+    <ul>
+      <li><a href="../Menu/Sous%20menu%20Hip-Hop/TDA.htm">T.D.A.</a></li>
+      <li>B.N.K.</li>
+      <li>Kahef</li>
+    </ul>
+  </li>
+</ul>
